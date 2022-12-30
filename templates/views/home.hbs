@@ -1,0 +1,17 @@
+{{>navbar}}
+<div  class="mx-auto" style="width: 1200px;">
+<h1>Welcome! You are Signed in</h1>
+<h4>Name: {{object.fullName}}</h4>
+<h4>Email: {{object.email }}</h4>
+{{!-- <p>id: {{object._id}} </p> --}}
+
+<a class="btn btn-warning" href="/edit" role="button">Edit Details</a>
+
+<a class="btn btn-danger" href="/" role="button">Log Out</a>
+
+
+</div>
+
+
+
+{{>footer}}
